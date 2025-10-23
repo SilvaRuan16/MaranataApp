@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 
-class AppBarComponent extends StatelessWidget {
-    AppBarComponent({super.key});
+class AppbarComponent extends StatelessWidget implements PreferredSizeWidget {
+  const AppbarComponent({super.key, required this.title});
 
-    @override
+  final String title;
+
+  @override
   Widget build(BuildContext context) {
     return AppBar(
-        child: Text("Olá"),
+      backgroundColor:Colors.brown,
+      title: Text(title, style: TextStyle(color: Colors.grey.shade100)),
     );
   }
+
+  @override
+  Size get preferredSize => const Size.fromHeight(kToolbarHeight);
 }
