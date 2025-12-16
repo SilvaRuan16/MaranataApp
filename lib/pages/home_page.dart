@@ -51,12 +51,18 @@ class HomePage extends StatelessWidget {
       drawer: DrawerComponent(title: "Drawer", nameItem: "Item"),
       body: BodyComponent(
         child: Column(
-          children: [
-            ButtonComponent(
-              icon: Icon(Icons.book),
-              buttonText: "Bíblia",
-            ),
-          ],
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.center,
+            children: [
+              ButtonComponent(
+                width: MediaQuery.of(context).size.width * 0.8,
+                height: 120,
+                icon: Icon(Icons.book),
+                buttonText: "Bíblia",
+                onPressed: null,
+              ),
+            ],
+          
         ),
       ),
     );

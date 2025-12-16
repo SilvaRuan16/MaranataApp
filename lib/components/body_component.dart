@@ -14,9 +14,13 @@ class BodyComponent extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      child: Padding(
-        padding: const EdgeInsetsGeometry.all(16.0),
-        child: child,
+      child: SizedBox(
+        width: MediaQuery.of(context).size.width,
+        height: MediaQuery.of(context).size.height,
+        child: Padding(
+          padding: const EdgeInsetsGeometry.all(16.0),
+          child: child,
+        ),
       ),
     );
   }
