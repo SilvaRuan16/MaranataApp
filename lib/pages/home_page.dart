@@ -3,6 +3,7 @@ import 'package:maranata_app/components/appbar_component.dart';
 import 'package:maranata_app/components/body_component.dart';
 import 'package:maranata_app/components/button_component.dart';
 import 'package:maranata_app/components/drawer_component.dart';
+import 'package:maranata_app/components/column_component.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -17,30 +18,21 @@ class HomePage extends StatelessWidget {
             width: 100,
             height: 100,
             child: PopupMenuButton<String>(
-              icon: Icon(
-                Icons.more_vert,
-                color: Colors.grey.shade100,
-              ),
+              icon: Icon(Icons.more_vert, color: Colors.grey.shade100),
               onSelected: null,
               itemBuilder: (BuildContext context) {
-                return [
+                return const [
                   PopupMenuItem<String>(
                     value: "ACF",
-                    child: Text(
-                      "Almeida Corrigida Fiel"
-                    ),
+                    child: Text("Almeida Corrigida Fiel"),
                   ),
                   PopupMenuItem<String>(
                     value: "NVI",
-                    child: Text(
-                      "Nova Versão Internacional"
-                    ),
+                    child: Text("Nova Versão Internacional"),
                   ),
                   PopupMenuItem<String>(
                     value: "AA",
-                    child: Text(
-                      "Almeida Atualizada"
-                    ),
+                    child: Text("Almeida Atualizada"),
                   ),
                 ];
               },
@@ -48,21 +40,15 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      drawer: DrawerComponent(title: "Drawer", nameItem: "Item"),
+      drawer: const DrawerComponent(title: "Drawer", nameItem: "Item"),
       body: BodyComponent(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.spaceAround,
-          crossAxisAlignment: CrossAxisAlignment.center,
-            children: [
-              ButtonComponent(
-                width: MediaQuery.of(context).size.width * 0.8,
-                height: 120,
-                icon: Icon(Icons.book),
-                buttonText: "Bíblia",
-                onPressed: null,
-              ),
-            ],
-          
+        child: ColumnComponent(
+          children: [
+            Text('Deliver features faster'),
+            Text('Craft beautiful UIs'),
+            Icon(Icons.book),
+            ButtonComponent(buttonText: "Testando", onPressed: ()=>{}, )
+          ],
         ),
       ),
     );

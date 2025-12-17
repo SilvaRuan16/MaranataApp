@@ -3,9 +3,9 @@ import 'package:flutter/material.dart';
 class ButtonComponent extends StatelessWidget {
   const ButtonComponent({
     super.key,
-    required this.icon,
+    this.icon,
     required this.buttonText,
-    required this.onPressed,
+    this.onPressed,
     this.width,
     this.height,
     this.backgroundColor,
@@ -14,8 +14,8 @@ class ButtonComponent extends StatelessWidget {
   });
 
   final String buttonText;
-  final Icon icon;
-  final Function? onPressed;
+  final Icon? icon;
+  final VoidCallback? onPressed;
   final double? width;
   final double? height;
   final Color? backgroundColor;
@@ -34,12 +34,12 @@ class ButtonComponent extends StatelessWidget {
         borderRadius: BorderRadius.circular(20.0),
       ),
       child: ElevatedButton(
-        onPressed: null,
+        onPressed: onPressed ?? () {},
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            Icon(icon.icon, color: iconColor ?? Colors.white, size: iconSize ?? 40.0),
+            if (icon != null) Icon(icon!.icon, color: iconColor ?? Colors.white, size: iconSize ?? 40.0),
             Text(buttonText, style: TextStyle(color: textColor ?? Colors.white, fontSize: fontSize ?? 18.0)),
           ],
         ),
