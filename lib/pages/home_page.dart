@@ -48,7 +48,7 @@ class HomePage extends StatelessWidget {
           ),
         ],
       ),
-      drawer: DrawerComponent(title: "Drawer", nameItem: "Item"),
+      drawer: DrawerComponent(),
       body: BodyComponent(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
