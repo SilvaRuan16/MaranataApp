@@ -1,12 +1,9 @@
+import 'package:biblia_sagrada/components/appbar_component.dart';
+import 'package:biblia_sagrada/components/body_component.dart';
+import 'package:biblia_sagrada/components/drawer_component.dart';
+import 'package:biblia_sagrada/components/list_component.dart';
+import 'package:biblia_sagrada/config.dart';
 import 'package:flutter/material.dart';
-import 'package:maranata_app/components/appbar_component.dart';
-import 'package:maranata_app/components/body_component.dart';
-import 'package:maranata_app/components/button_component.dart';
-import 'package:maranata_app/components/card_component.dart';
-import 'package:maranata_app/components/drawer_component.dart';
-import 'package:maranata_app/components/column_component.dart';
-import 'package:maranata_app/components/list_component.dart';
-import 'package:maranata_app/config.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});

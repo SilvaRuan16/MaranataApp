@@ -1,5 +1,5 @@
+import 'package:biblia_sagrada/config.dart';
 import 'package:flutter/material.dart';
-import 'package:maranata_app/config.dart';
 
 class AppbarComponent extends StatelessWidget implements PreferredSizeWidget {
   const AppbarComponent({super.key, required this.title, this.actions});

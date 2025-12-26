@@ -1,5 +1,5 @@
+import 'package:biblia_sagrada/config.dart';
 import 'package:flutter/material.dart';
-import 'package:maranata_app/config.dart';
 
 class ButtonComponent extends StatelessWidget {
   const ButtonComponent({

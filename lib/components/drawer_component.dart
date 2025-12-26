@@ -1,6 +1,6 @@
+import 'package:biblia_sagrada/config.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:maranata_app/config.dart';
 
 class DrawerComponent extends StatelessWidget {
   const DrawerComponent({super.key});

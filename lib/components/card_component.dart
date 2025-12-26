@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:maranata_app/config.dart';
 
 class CardComponent extends StatelessWidget {
   const CardComponent({

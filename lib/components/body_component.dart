@@ -1,5 +1,5 @@
+import 'package:biblia_sagrada/config.dart';
 import 'package:flutter/material.dart';
-import 'package:maranata_app/config.dart';
 
 /**
  * Este arquivo representa um componente cujo será utilizado como o corpo base
