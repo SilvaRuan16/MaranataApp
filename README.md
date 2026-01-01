@@ -1,65 +1,55 @@
-# BIBLIA_SAGRADA
+# Bíblia Sagrada - Sem Anúncios 📖✨
 
-Uma aplicação **multi-plataforma** robusta desenvolvida para fornecer conteúdo bíblico e recursos de apoio para igrejas e uso pessoal. O projeto foi concebido para ser acessível em qualquer dispositivo, garantindo que a palavra e os recursos de adoração estejam sempre à mão.
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![Open Source](https://img.shields.io/badge/Open%20Source-%23f2f2f2.svg?style=for-the-badge&logo=open-source&logoColor=red)
 
----
+Uma aplicação multiplataforma dedicada a levar a Palavra de Deus de forma pura, acessível e totalmente gratuita. Este projeto é uma extensão do aplicativo **Bíblia e Harpa - Sem Anúncios**.
 
-## 📖 Manifesto de Código Aberto (Open Source)
+## 🚀 Sobre o Projeto
 
-Este é um projeto de **código aberto** fundamentado em dois pilares principais:
+O objetivo deste projeto é fornecer uma experiência bíblica completa para diversas denominações (Assembleia, Maranata, Presbiteriana, Pentecostais, Células e outras), sem a interrupção de anúncios ou barreiras de produtos pagos.
 
-1. **Evangelização:** Nossa missão é espalhar a Palavra de Deus o máximo possível. Ao abrir o código, permitimos que a ferramenta chegue a lugares que não conseguiríamos alcançar sozinhos.
-2. **Transparência e Confiança:** Queremos que cada usuário tenha a certeza de que sua privacidade é respeitada. O código aberto permite que qualquer desenvolvedor audite a aplicação, garantindo que não há coleta indevida de dados, protegendo o projeto contra falsas acusações.
+### Principais Diferenciais:
+- **Zero Anúncios:** Foco total na leitura e espiritualidade.
+- **Multiplataforma:** Disponível para Android, iOS, Web e Desktop.
+- **Foco em Desempenho:** Otimizado para dispositivos antigos ou com baixo processamento.
+- **Acessibilidade:** Modo escuro, ajuste de fontes e suporte a áudio.
+- **Open Source:** Código aberto para transparência e colaboração da comunidade.
 
-Acreditamos no termo **"MÃO AMIGA"**. Por isso, encorajamos a todos para contribuir com feedbacks e sugestões.
+## 🛠 Tecnologia e Arquitetura
 
----
+- **Frontend:** [Flutter](https://flutter.dev/) (Dart)
+- **Backend:** [Spring Boot](https://spring.io/projects/spring-boot) (Java)
+- **Banco de Dados:** PostgreSQL
+- **Gerenciamento de Estado:** Provider
+- **Padrão de Arquitetura:** MVC + Service
 
-## 📱 Plataformas Suportadas
-A aplicação funciona de forma nativa e responsiva em:
-* **Mobile:** Android e iOS
-* **Web:** Navegadores modernos
-* **Desktop:** Windows, macOS e Linux
+## 📅 Cronograma de Desenvolvimento
 
----
+O projeto utiliza a metodologia **SCRUM** e tem um prazo estimado de **1 ano** para o lançamento da primeira versão estável (MVP), priorizando testes de segurança e escalabilidade.
 
-## ✨ Funcionalidades Principais
+## 🤝 Como Contribuir
 
-* **Bíblia Sagrada & Harpas Cristãs:** Conteúdo completo para estudo e louvor.
-* **Palavra do dia / Devocionais & Áudios:** Conteúdo diário e player integrado.
-* **Gestão Eclesiástica:** Painel de avisos e suporte ao usuário.
-* **Sem Fins Lucrativos:** Sem anúncios e mantido por doações voluntárias.
+Você pode ajudar de duas formas:
 
----
+1. **Desenvolvimento:** Sinta-se à vontade para realizar um *fork* do projeto. Agradecemos se puder referenciar este repositório original.
+2. **Doações:** O projeto é mantido por apoio voluntário. Se desejar fazer uma doação, qualquer valor é bem-vindo — desde centavos até qualquer outro valor. O que importa para nós é sua vontade de apoiar nossa jornada.
 
-## 🏗️ Arquitetura e Tecnologias
+### Apoie via Pix (Qualquer valor)
+Escaneie o QR Code abaixo ou copie a chave aleatória:
 
-* **Arquitetura:** `MVC` (Model-View-Controller) + `SERVICE`.
-* **Gerenciamento de Estado:** `PROVIDER`.
+**Chave Pix Aleatória:**
+```text
+5e32d467-b1e8-4db4-ae93-e6767105b704
+```
+Beneficiário: Ruan
 
----
+## 📞 Suporte
 
-## 💰 Contribuições e Doações Voluntárias
+Encontrou um erro, tem uma sugestão ou precisa de auxílio? Entre em contato diretamente com a nossa equipe de desenvolvimento através do e-mail:
 
-Este projeto é mantido de forma independente e sem fins lucrativos. O acesso a todo o conteúdo é totalmente gratuito. Para manter a infraestrutura, os custos de desenvolvimento e as melhorias contínuas, aceitamos doações voluntárias de quem sente o desejo de apoiar esta missão.
+📧 suporte.biblia.noads@gmail.com
 
-Se você deseja contribuir financeiramente com o projeto, entre em contato conosco através do e-mail abaixo para receber as informações:
-
-📩 **Contato para Doações:** [suporte.biblia.noads@gmail.com](mailto:suporte.biblia.noads@gmail.com)
-
----
-
-## 🤝 Uso do Código (Fork) e Colaboração
-
-Este projeto é aberto para a comunidade. Se você deseja utilizar este código para criar sua própria versão ou aplicar suas preferências:
-
-1. **Atribuição Obrigatória:** Caso você realize um **fork** ou utilize partes significativas deste código em outro projeto, você deve obrigatoriamente informar no seu repositório/aplicação que o projeto foi derivado desta aplicação original.
-2. **Link do Repositório:** É necessário disponibilizar o link para este repositório original como fonte de origem.
-
----
-
-## ⚖️ Política de Privacidade
-*Última atualização: 23 de dezembro de 2025*
-
-> **Coleta de Dados:** Não realizamos a coleta de informações pessoais. Funcionamento 100% local.
-> **Anúncios:** O aplicativo **não exibe anúncios** e não utiliza rastreadores de terceiros.
+"De graça recebestes, de graça dai." (Mateus 10:8)
