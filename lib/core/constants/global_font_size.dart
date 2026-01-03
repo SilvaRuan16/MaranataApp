@@ -1,1 +1,0 @@
-const fontSize = 24;

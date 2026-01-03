@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 /**
@@ -14,18 +13,11 @@ class BodyWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      child: SingleChildScrollView(
-        child: SizedBox(
-          width: MediaQuery.of(context).size.width,
-          height: MediaQuery.of(context).size.height,
-          child: Padding(
-            padding: const EdgeInsetsGeometry.all(16.0),
-            child: child,
-          ),
+    return SingleChildScrollView(
+        child: Padding(
+          padding: const EdgeInsetsGeometry.all(16.0),
+          child: child,
         ),
-      ),
     );
   }
 }

@@ -23,12 +23,12 @@ class DrawerWidget extends StatelessWidget {
                     width: avatarSize,
                     height: avatarSize,
                     decoration: BoxDecoration(
-                      color: Colors.red,
+                      color: Colors.blue,
                       shape: BoxShape.circle,
                     ),
                     clipBehavior: Clip.hardEdge,
                     child: SvgPicture.asset(
-                      'assets/images/iconDrawerHeader.svg',
+                      'assets/images/IconBiblia.svg',
                       width: avatarSize,
                       height: avatarSize,
                       fit: BoxFit.cover,

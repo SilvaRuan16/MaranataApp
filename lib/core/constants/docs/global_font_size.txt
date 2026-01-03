@@ -1,5 +1,0 @@
-Documentação referente ao arquivo global_font_size.dart
-
-Este arquivo foi criado para armazenar os tamanhos de fontes que serão utilizadas na aplicação, todas elas serão constantes a fim de reduzir o máximo possível o peso final da aplicação, além de melhorar o desempenho do mesmo, já que as constantes reutilizam as instâncias, fazendo com que o conteúdo não precise ser rebuildado.
-
-A fontes serão pensadas em atender o público de forma ampla, para que não haja seleção ou atender somente um público específico, deixando o restante abandonados. Na versão inicial de teste, a proposta é fornecer um tamanho unico de fonte, sendo ela 24, para que consiga capturar todos os tipos de usuários sem precisar ter uma funcionalidade para alterar o tamanho da fonte.

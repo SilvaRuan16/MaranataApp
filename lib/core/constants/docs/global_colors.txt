@@ -1,5 +1,0 @@
-Documentação referente ao arquivo global_colors.dart
-
-Este arquivo foi criado para armazenar as cores que serão utilizadas na aplicação, todas elas serão constantes a fim de reduzir o máximo possível o peso final da aplicação, além de melhorar o desempenho do mesmo, já que as constantes reutilizam as instâncias, fazendo com que o conteúdo não precise ser rebuildado.
-
-As cores serão pensadas ao máximo para atender aos usuários, serão adicionadas algumas opções de cores que mais atenderão a essa proposta, além de garantir uma aplicação bem suave e agradável.

@@ -10,7 +10,7 @@ class BibleVersionSelector extends StatelessWidget {
       icon: const Icon(Icons.more_vert),
 
       // Usa a cor de superfície do seu tema (Light ou Dark)
-      color: context.colorScheme.surface,
+      color: Theme.of(context).colorScheme.surface,
 
       // Visual moderno com bordas arredondadas
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
