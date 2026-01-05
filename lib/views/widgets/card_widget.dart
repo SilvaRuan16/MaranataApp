@@ -18,14 +18,14 @@ class CardWidget extends StatelessWidget {
       width: width,
       height: height,
       padding: const EdgeInsets.symmetric(vertical: 10.0, horizontal: 15.0),
+      decoration: BoxDecoration(
+        color: backgroundColor,
+        borderRadius: BorderRadius.circular(20.0),
+      ),
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [...children],
-      ),
-      decoration: BoxDecoration(
-        color: backgroundColor,
-        borderRadius: BorderRadius.circular(20.0),
       ),
     );
   }
