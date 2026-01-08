@@ -1,3 +1,4 @@
+import 'package:biblia_sagrada/core/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class ButtonWidget extends StatelessWidget {
@@ -8,9 +9,6 @@ class ButtonWidget extends StatelessWidget {
     this.onPressed,
     this.width,
     this.height,
-    this.iconSize,
-    this.fontSize,
-    this.isCenter = false,
   });
 
   final String buttonText;
@@ -18,9 +16,6 @@ class ButtonWidget extends StatelessWidget {
   final VoidCallback? onPressed;
   final double? width;
   final double? height;
-  final double? iconSize;
-  final double? fontSize;
-  final bool isCenter;
 
   Widget _buildButton(BuildContext context) {
     final onPrimary = Theme.of(context).colorScheme.onPrimary;
@@ -39,17 +34,10 @@ class ButtonWidget extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             if (icon != null)
-              Icon(
-                icon!.icon,
-                color: onPrimary,
-                size: iconSize ?? 40.0,
-              ),
+              Icon(icon!.icon, color: onPrimary, size: textSizeSystem),
             Text(
               buttonText,
-              style: TextStyle(
-                color: onPrimary,
-                fontSize: fontSize ?? 18.0,
-              ),
+              style: TextStyle(color: onPrimary, fontSize: textSizeSystem),
             ),
           ],
         ),
@@ -60,6 +48,6 @@ class ButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final btn = _buildButton(context);
-    return isCenter ? Center(child: btn) : btn;
+    return btn;
   }
 }

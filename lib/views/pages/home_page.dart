@@ -26,7 +26,7 @@ class HomePage extends StatelessWidget {
           children: [
             Text("Olá, este app está sendo desenvolvido!"),
             SizedBox(height: 10),
-            ButtonWidget(width: 220, height: 50, isCenter: true, buttonText: "Mudar tema", onPressed: themeController.toggleTheme),
+            ButtonWidget(width: 220, height: 50, buttonText: "Mudar tema", onPressed: themeController.toggleTheme),
           ],
         ),
       ),
