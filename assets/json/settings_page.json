@@ -1,0 +1,47 @@
+{
+    "appbar": {
+        "titulo": "Configurações"
+    },
+    "body": {
+        "card": {
+            "lista_conteudo_card": [
+                {
+                    "titulo_card": "Tamanho da fonte",
+                    "descricao_card": "Ajuste o tamanho da fonte para melhorar a sua leitura."
+                },
+                {
+                    "titulo_card": "Tema do aplicativo",
+                    "descricao_card": "Altere entre o modo claro e escuro conforme sua preferência."
+                },
+                {
+                    "titulo_card": "Compartilhar app",
+                    "descricao_card": "Compartilhe o nosso app com familiares e amigos a fim de alcançar mais pessoas."
+                },
+                {
+                    "titulo_card": "Verificar atualizações",
+                    "descricao_card": "Verifique se há novas atualizações disponíveis nas plataformas de download."
+                },
+                {
+                    "titulo_card": "Avalie",
+                    "descricao_card": "Avalie nosso app para nos ajudar."
+                },
+                {
+                    "titulo_card": "Doação",
+                    "descricao_card": "Nos ajude com uma doação a fim de melhorar esta iniciativa, além de manter alguns custos (Centavos ou o valor que preferir), sua intenção é oque importa."
+                },
+                {
+                    "titulo_card": "Sobre o app",
+                    "descricao_card": "Saiba mais sobre o nosso app."
+                },
+                {
+                    "titulo_card": "Política de privacidade",
+                    "descricao_card": "Confira os termos de política de privacidade."
+                },
+                {
+                    "titulo_card": "Suporte",
+                    "descricao_card": "Entre em contato para solicitar suporte ou nos dar um feedback."
+                }
+            ]
+        }
+    }
+}

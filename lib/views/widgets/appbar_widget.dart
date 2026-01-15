@@ -1,4 +1,3 @@
-import 'package:biblia_sagrada/core/constants/constants.dart';
 import 'package:flutter/material.dart';
 
 class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
@@ -11,7 +10,7 @@ class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
     this.bottomTabBar,
   });
 
-  final String title;
+  final Widget title;
   final bool? centerTitle;
   final List<Widget>? actions;
   final bool? automaticallyImplyLeading;
@@ -20,7 +19,7 @@ class AppbarWidget extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      title: Text(title, style: TextStyle(fontSize: appBarTitleSize)),
+      title: title,
       actions: [...actions ?? []],
       bottom: bottomTabBar,
       automaticallyImplyLeading: automaticallyImplyLeading ?? true,

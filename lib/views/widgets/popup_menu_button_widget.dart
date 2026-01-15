@@ -1,4 +1,3 @@
-import 'package:biblia_sagrada/core/theme/app_theme.dart';
 import 'package:flutter/material.dart';
 
 class BibleVersionSelector extends StatelessWidget {

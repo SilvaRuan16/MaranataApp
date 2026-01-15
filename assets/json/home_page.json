@@ -1,5 +1,16 @@
 {
-    "home": [
-        
-    ]
+    "appbar": {
+        "titulo": "Bíblia Sagrada"
+    },
+    "body": {
+        "conteudo_botao_home": [
+            {"titulo_btn": "Bíblia","icon": "Icons.menu_book_rounded"},
+            {"titulo_btn": "Harpa","icon": "Icons.music_note"},
+            {"titulo_btn": "Devocional","icon": "Icons.auto_stories"},
+            {"titulo_btn": "Áudio","icon": "Icons.headphones_outlined"}
+        ]
+    },
+    "bottom": {
+        "versao_app": "1.0.0+1"
+    }
 }

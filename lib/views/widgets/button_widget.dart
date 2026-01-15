@@ -5,41 +5,44 @@ class ButtonWidget extends StatelessWidget {
   const ButtonWidget({
     super.key,
     this.icon,
-    required this.buttonText,
+    this.buttonText,
     this.onPressed,
     this.width,
     this.height,
   });
 
-  final String buttonText;
-  final Icon? icon;
+  final String? buttonText;
+  final IconData? icon;
   final VoidCallback? onPressed;
   final double? width;
   final double? height;
 
   Widget _buildButton(BuildContext context) {
     final onPrimary = Theme.of(context).colorScheme.onPrimary;
-    return Container(
-      width: width ?? 150,
-      height: height ?? 150,
-      decoration: BoxDecoration(borderRadius: BorderRadius.circular(20.0)),
-      child: ElevatedButton(
-        style: ElevatedButton.styleFrom(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(20),
-          ),
-        ),
-        onPressed: onPressed ?? () {},
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            if (icon != null)
-              Icon(icon!.icon, color: onPrimary, size: textSizeSystem),
-            Text(
-              buttonText,
-              style: TextStyle(color: onPrimary, fontSize: textSizeSystem),
+    return Padding(
+      padding: const EdgeInsets.all(8.0),
+      child: Container(
+        width: width ?? 150,
+        height: height ?? 100,
+        decoration: BoxDecoration(borderRadius: BorderRadius.circular(20.0)),
+        child: ElevatedButton(
+          style: ElevatedButton.styleFrom(
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(20),
             ),
-          ],
+          ),
+          onPressed: onPressed ?? () {},
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              if (icon != null)
+                Icon(icon, color: onPrimary, size: textSizeSystem),
+              Text(
+                buttonText!,
+                style: TextStyle(color: onPrimary, fontSize: textSizeSystem),
+              ),
+            ],
+          ),
         ),
       ),
     );
@@ -47,7 +50,6 @@ class ButtonWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final btn = _buildButton(context);
-    return btn;
+    return _buildButton(context);
   }
 }

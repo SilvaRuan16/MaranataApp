@@ -1,13 +1,14 @@
 
+// ignore_for_file: avoid_print, unused_import
+
+import 'package:biblia_sagrada/services/system/navigation_service.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class DrawerWidget extends StatelessWidget {
   const DrawerWidget({super.key});
 
   @override
   Widget build(BuildContext context) {
-    final double avatarSize = MediaQuery.of(context).size.width * 0.2;
     return Drawer(
       width: MediaQuery.of(context).size.width * 0.90,
       child: Column(
@@ -15,31 +16,11 @@ class DrawerWidget extends StatelessWidget {
           SizedBox(
             width: double.infinity,
             child: DrawerHeader(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Container(
-                    width: avatarSize,
-                    height: avatarSize,
-                    decoration: BoxDecoration(
-                      color: Colors.blue,
-                      shape: BoxShape.circle,
-                    ),
-                    clipBehavior: Clip.hardEdge,
-                    child: SvgPicture.asset(
-                      'assets/images/IconBiblia.svg',
-                      width: avatarSize,
-                      height: avatarSize,
-                      fit: BoxFit.cover,
-                    ),
-                  ),
-                  SizedBox(height: 10),
-                  Text(
+              child: Center(
+                child: Text(
                     "Biblía Sagrada",
                     style: TextStyle(fontSize: 24.0),
                   ),
-                ],
               ),
             ),
           ),
@@ -54,7 +35,8 @@ class DrawerWidget extends StatelessWidget {
                     style: TextStyle(fontSize: 24.0),
                   ),
                   onTap: () {
-                    Navigator.pop(context);
+                    Navigator.pushNamed(context, '/config');
+                    print("Clicado em Configurações");
                   },
                 ),
                 ListTile(

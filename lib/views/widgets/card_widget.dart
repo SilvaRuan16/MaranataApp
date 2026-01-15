@@ -5,12 +5,13 @@ class CardWidget extends StatelessWidget {
     super.key,
     required this.children,
     required this.width,
-    required this.height, required this.backgroundColor,
+    this.height,
+    this.backgroundColor,
   });
   final List<Widget> children;
   final double width;
-  final double height;
-  final Color backgroundColor;
+  final double? height;
+  final Color? backgroundColor;
 
   @override
   Widget build(BuildContext context) {
