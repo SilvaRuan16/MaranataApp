@@ -7,39 +7,48 @@
             "lista_conteudo_card": [
                 {
                     "titulo_card": "Tamanho da fonte",
-                    "descricao_card": "Ajuste o tamanho da fonte para melhorar a sua leitura."
+                    "descricao_card": "Ajuste o tamanho da fonte para melhorar a sua leitura.",
+                    "tipo_botao": "ajuste_fonte"
                 },
                 {
                     "titulo_card": "Tema do aplicativo",
-                    "descricao_card": "Altere entre o modo claro e escuro conforme sua preferência."
+                    "descricao_card": "Altere entre o modo claro e escuro conforme sua preferência.",
+                    "tipo_botao": "tema"
                 },
                 {
                     "titulo_card": "Compartilhar app",
-                    "descricao_card": "Compartilhe o nosso app com familiares e amigos a fim de alcançar mais pessoas."
+                    "descricao_card": "Compartilhe o nosso app com familiares e amigos a fim de alcançar mais pessoas.",
+                    "tipo_botao": "compartilhar_app"
                 },
                 {
                     "titulo_card": "Verificar atualizações",
-                    "descricao_card": "Verifique se há novas atualizações disponíveis nas plataformas de download."
+                    "descricao_card": "Verifique se há novas atualizações disponíveis nas plataformas de download.",
+                    "tipo_botao": "verificar_atualizacoes"
                 },
                 {
                     "titulo_card": "Avalie",
-                    "descricao_card": "Avalie nosso app para nos ajudar."
+                    "descricao_card": "Avalie nosso app para nos ajudar.",
+                    "tipo_botao": "avaliacao"
                 },
                 {
                     "titulo_card": "Doação",
-                    "descricao_card": "Nos ajude com uma doação a fim de melhorar esta iniciativa, além de manter alguns custos (Centavos ou o valor que preferir), sua intenção é oque importa."
+                    "descricao_card": "Nos ajude com uma doação a fim de melhorar esta iniciativa, além de manter alguns custos (Centavos ou o valor que preferir), sua intenção é oque importa.",
+                    "tipo_botao": "doacao"
                 },
                 {
                     "titulo_card": "Sobre o app",
-                    "descricao_card": "Saiba mais sobre o nosso app."
+                    "descricao_card": "Saiba mais sobre o nosso app.",
+                    "tipo_botao": "sobre_o_app"
                 },
                 {
                     "titulo_card": "Política de privacidade",
-                    "descricao_card": "Confira os termos de política de privacidade."
+                    "descricao_card": "Confira os termos de política de privacidade.",
+                    "tipo_botao": "politica_de_privacidade"
                 },
                 {
                     "titulo_card": "Suporte",
-                    "descricao_card": "Entre em contato para solicitar suporte ou nos dar um feedback."
+                    "descricao_card": "Entre em contato para solicitar suporte ou nos dar um feedback.",
+                    "tipo_botao": "suporte"
                 }
             ]
         }
